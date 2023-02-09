@@ -8,5 +8,5 @@ deployment:
     - cp -Rf imgCantantes $DEPLOYPATH
     - cp -Rf paginas $DEPLOYPATH
     - cp -Rf index.html $DEPLOYPATH
-    - cp -Rf css.css $DEPLOYPATH
+    - cp -Rf css.css $DEPLOYPATH 
     - cp -Rf js.js $DEPLOYPATH

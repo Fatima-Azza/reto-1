@@ -1,0 +1,51 @@
+/* ---- nav ----- */
+
+.nav_container {
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+
+display: flex;
+justify-content: center;
+backdrop-filter: blur(15px);
+background-color: rgba(0, 0, 0, 0.142);
+border-radius: 3rem;
+width: 300px;
+
+
+}
+
+#boton_cantantes{
+
+  filter: invert(24%) sepia(29%) saturate(1310%) hue-rotate(94deg) brightness(95%) contrast(84%);
+
+}
+
+
+nav img {
+
+width: 30px;
+height: 30px;
+
+
+
+}
+
+nav img:hover {
+
+  border: 0ch;
+  border-radius: 3rem;
+  background: rgb(254, 254, 254);
+
+
+}
+
+nav a {
+
+  padding: 0.9rem;
+
+
+}

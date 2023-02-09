@@ -1,0 +1,101 @@
+@import url(./Css/carousel.css);
+@import url(./Css/nav.css);
+@import url(./Css/card.css);
+@import url(./Css/cantantes.css);
+@import url(./Css/formulario.css);
+@import url(./Css/guitarras.css);
+@import url(./Css/footer.css);
+@import url(./Css/informacion.css);
+
+
+
+:root {
+
+  /* -- letras -- */
+  --color_principal: rgb(0, 0, 0);
+  --color_segundario: rgb(255, 255, 255);
+
+  /* -- rgba -- */
+  --sombra: rgba(0, 0, 0, 0.93);
+
+  /* -- Anchura de card -- */
+  --anchura_card: 20rem;
+
+  --color-bg: #ffffff;
+  --color-bg-variant: #00000046;
+  --color-primary: #00000049;
+  --color-primary-variant: rgba(255, 255, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255 , 255 , 255 , 0.6);
+
+  --container-width-lg : 75%;
+  --container-width-md : 86%;
+  --container-width-ms : 90%;
+
+  --transition: all 400ms ease ;
+
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+
+  margin: auto;
+  padding: auto;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+* {
+
+  text-decoration:none;
+  list-style: none;
+
+}
+
+*::-webkit-scrollbar {
+
+  width: 0;
+  
+}
+
+*::-webkit-scrollbar-track {
+
+  background: transparent;
+
+}
+
+*::-webkit-scrollbar-thumb {
+
+  background: transparent;
+  border: none;
+
+}
+
+h1 {
+  
+  font-weight: 700;
+  text-align: center;
+
+}
+
+section {
+
+  position: relative;
+  
+}
+
+
+
+
+
+
+
+
+
+

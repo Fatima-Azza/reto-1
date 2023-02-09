@@ -3,7 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/fatimaze/sites/reto1.fatima.zerbitzaria.net
     - rm -Rf $DEPLOYPATH/* 
-    - cp -Rf css $DEPLOYPATH
+    - cp -Rf Css $DEPLOYPATH
     - cp -Rf img $DEPLOYPATH
     - cp -Rf imgCantantes $DEPLOYPATH
     - cp -Rf paginas $DEPLOYPATH
